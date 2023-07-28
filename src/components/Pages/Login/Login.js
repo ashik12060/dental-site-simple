@@ -7,14 +7,14 @@ const Login = () => {
   const history = useHistory()
   const location = useLocation()
   const redirect_url = location.state?.from || '/'
-  const {user, handleGoogleSignIn, handleSignInUser, setUser } = useAuth()
+  const {user, handleGoogleSignIn, handleSignInUser } = useAuth()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
   const handleLogin = e => {
-    e.preventDefault()
-    handleSignInUser(email, password)
-      .then(result => {
+    e.preventDefault();
+    handleSignInUser(email,password)
+      .then(result=> {
         history.push(redirect_url)
     }) .catch(err=>alert(err.message))
   }

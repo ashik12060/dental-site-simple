@@ -10,8 +10,8 @@ const Footer = () => {
             <FaTooth className='text-3xl text-purple-600' />
             <span className='text-4xl font-semibold'>Dentist</span>
           </button>
-                  <p>Mirpur-1, Dhaka-1216</p>
-                  <p>(+880) 1987-654321</p>
+                  <p>Kalabagan Dhaka-1205</p>
+                  <p>(+880) 1317424004</p>
                   <p>dentist@gmail.com</p>
         </div>
         <div className='md:w-4/12 flex flex-col mx-auto md:my-0 my-5'>

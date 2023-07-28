@@ -16,7 +16,7 @@ p-10 md:flex-row flex-col'
           <h1 className='text-xl font-semibold text-gray-900 text-left'>
             More Information
           </h1>
-          <hr className='w-2/12 h-1 bg-gray-900 mb-5' />
+          <hr className='w-2/12 h-1  bg-purple-600 mb-5' />
           <div className='flex items-center mb-3'>
             <img
               src='https://assets.website-files.com/601d7e7320ecf079f58169fd/60244775cba85b6f29876522_icon-1-contact-dentist-template.svg'
@@ -25,7 +25,7 @@ p-10 md:flex-row flex-col'
             />
             <div className='ml-3 text-left'>
               <h1 className='font-semibold'>Address</h1>
-              <p className='font-semibold'>Mirpur Dhaka-1216</p>
+              <p className='font-semibold'>Kalabagan Dhaka-1205</p>
             </div>
           </div>
           <div className='flex items-center mb-3'>
@@ -47,7 +47,7 @@ p-10 md:flex-row flex-col'
             />
             <div className='ml-3 text-left'>
               <h1 className='font-semibold'>Phone</h1>
-              <p className='font-semibold'>(+880) 1987-654321</p>
+              <p className='font-semibold'>(+880) 1317424004</p>
             </div>
           </div>
         </div>

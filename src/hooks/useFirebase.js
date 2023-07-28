@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { firebaseInitializer } from '../components/firebase/firebaseInit'
 import {
   GoogleAuthProvider,

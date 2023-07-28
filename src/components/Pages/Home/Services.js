@@ -3,7 +3,10 @@ import { useHistory } from 'react-router'
 
 import './Home.css'
 const Services = ({ handleAddServices, services }) => {
-  const history = useHistory();
+
+  const history = useHistory()
+  const linkHandler = link => history.push(link)
+  
   const service = services.map(item => (
     <div className=''>
       <div className='md:w-10/12 shadow-md mx-auto rounded-xl mb-5'>
@@ -38,7 +41,7 @@ const Services = ({ handleAddServices, services }) => {
             </h1>
           </div>
           <div className='md:w-4/12 md:mt-0 mt-2'>
-            <button className='text-white bg-purple-600 px-4 py-4 rounded-xl mr-5 hover:bg-purple-100 font-semibold hover:text-purple-600'>
+            <button onClick={() => linkHandler('/contact')} className='text-white bg-purple-600 px-4 py-4 rounded-xl mr-5 hover:bg-purple-100 font-semibold hover:text-purple-600'>
               Book an Appointment
             </button>
           </div>

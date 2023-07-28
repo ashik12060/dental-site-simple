@@ -63,7 +63,7 @@ const Header = ({ totalServices }) => {
           {user?.displayName ? (
             <div className='flex items-center justify-between'>
               <h1 className='mr-5 text-xl font-semibold text-purple-600'>
-                hi! {user.displayName}
+                Hi! {user.displayName}
               </h1>
               <button
                 className='shadow-md rounded-full py-3 px-6  bg-indigo-600 text-white'

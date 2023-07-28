@@ -1,6 +1,10 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 
 const Banner = () => {
+  
+  const history = useHistory()
+  const linkHandler = link => history.push(link)
   return (
     <div className='flex justify-between md:h-screen items-center md:flex-row flex-col mb-5'>
       <div className='md:w-6/12 w-full md:px-20 px-2'>
@@ -13,7 +17,7 @@ const Banner = () => {
           healthy smile
         </p>
         <div className='md:text-left mt-5'>
-          <button className='w-full md:w-auto text-white bg-purple-600 px-4 py-4 rounded-xl md:mr-5 hover:bg-purple-100 font-semibold hover:text-purple-600'>
+          <button onClick={() => linkHandler('/contact')} className='w-full md:w-auto text-white bg-purple-600 px-4 py-4 rounded-xl md:mr-5 hover:bg-purple-100 font-semibold hover:text-purple-600'>
             Book an Appointment
           </button>
           <button
