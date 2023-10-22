@@ -19,6 +19,8 @@
 -Redirect to private route after successful login
 ```
 To run the project on local server: 
+```
 -first run the command -npm install
 -when install complete, npm start to start the project,
 -will run on the port 3000 by default
+```
