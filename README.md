@@ -18,5 +18,7 @@
 -Redirect from private routes if user is not authenticated
 -Redirect to private route after successful login
 ```
-
-##Live Site Link: https://medical-43d7c.web.app/
+To run the project on local server: 
+-first run the command -npm install
+-when install complete, npm start to start the project,
+-will run on the port 3000 by default
